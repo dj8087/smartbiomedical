@@ -7,6 +7,7 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import './App.css'
 import Home from './components/Home'
+import PDFViewer from './components/PDFViewer/PDFViewer'
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/pdf-viewer" element={<PDFViewer />} />
             </Routes>
           </main>
           <Footer />
